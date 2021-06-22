@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let renkler = Set(["kırmızı","mavi", "yeşil", "turuncu", "mavi"])
+renkler
+var name = (first: "Doğancan", last: "Mavideniz")
+name.0
+name.first //same
+    //Dict
+let Heights = [
+    "Doğancan":190,
+    "Ahmet": 189
+]
+Heights["Doğancan"]
+
+    //example
+let icecream = [
+    "Doğancan": "Magnum",
+    "Ahmet": "Cornet"
+]
+icecream["Doğancan"]
+icecream["Magnum", default: "Unknown"] //does not work, cool
+
+    //for create empty dict
+var emptydict = [String: String]()
+emptydict = ["Artık":"Boş değil"]
+emptydict["Artık"]
+var emptyarray = [Int]()
+var emptyset = Set&lt;Int&gt;()
+var emptyadict = Dictionary&lt;String, Int&gt;()
+//Enum
+enum Gunler{
+    case Pazartesi
+    case Salı
+    case Çarşamba
+    case Perşembe
+}
+var bugun = Gunler.Salı
+bugun
+
+    //other example
+enum Result{
+    case succes
+    case failure
+}
+let result4 = Result.failure
+result4
+
+    //enum example
+enum planet: Int{
+    case dunya
+    case mars
+    case jupiter
+}
+let jupiter = planet(rawValue: 2)
+jupiter
+</string>
+			<key>ModifiedRange</key>
+			<string>{97, 965}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{97, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

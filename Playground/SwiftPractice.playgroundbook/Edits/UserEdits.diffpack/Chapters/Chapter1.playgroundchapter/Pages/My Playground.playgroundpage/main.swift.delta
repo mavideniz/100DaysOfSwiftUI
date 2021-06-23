@@ -6,34 +6,78 @@
 	<array>
 		<dict>
 			<key>ModifiedContent</key>
-			<string>let renkler = Set(["kırmızı","mavi", "yeşil", "turuncu", "mavi"])
+			<string>//Değişken tanımlarken var ya da let ile tanımlıyoruz. 
+//Daha sonrasında değiştirmeyeceğimiz değişkenleri let ile tanımlarız.
+var okulNo = 123
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 144}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>
+// Array oluşturmak için aşağıdaki gibi bir yapı kullanıyoruz, arrayin içindeki verilerin tipini önceden belirleyebiliyoruz.
+let intArray: [Int] = [1,2,3]
+intArray[2]
+let takım = [dogancan, ahmet]
+</string>
+			<key>ModifiedRange</key>
+			<string>{191, 198}</string>
+			<key>OriginalContent</key>
+			<string>let takım: [String] = [dogancan, ahmet]
+</string>
+			<key>OriginalRange</key>
+			<string>{48, 40}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>
+//Set oluştururken Set([]) yapısını kullanıyoruz. Setin özelliği, sadece unique(benzersiz) olan değerleri tutuyor.
+let renkler = Set(["kırmızı","mavi", "yeşil", "turuncu", "mavi"])
 renkler
 var name = (first: "Doğancan", last: "Mavideniz")
-name.0
-name.first //same
-    //Dict
+name.0 //same
+name.first //same her iki şekilde de kullanabiliyoruz.
+    //Dict örneği
 let Heights = [
     "Doğancan":190,
-    "Ahmet": 189
+    "Ahmet": 189,
+    "Ayşe": 185,
+    "Mehmet": 230,
 ]
 Heights["Doğancan"]
 
     //example
 let icecream = [
     "Doğancan": "Magnum",
-    "Ahmet": "Cornet"
+    "Ahmet": "Cornet",
+    "Mehmet": "Meybuz" // :)
 ]
 icecream["Doğancan"]
+icecream["Mehmet"]
 icecream["Magnum", default: "Unknown"] //does not work, cool
 
     //for create empty dict
+var dogan = [String]()
+dogan = ["32"] //array'e element ekleme yolu
+dogan.append("33") //array'e element ekleme yolu 2
+dogan
+
 var emptydict = [String: String]()
 emptydict = ["Artık":"Boş değil"]
 emptydict["Artık"]
+
 var emptyarray = [Int]()
 var emptyset = Set&lt;Int&gt;()
 var emptyadict = Dictionary&lt;String, Int&gt;()
-//Enum
+
+//Enum kullanımı, nasıl anlatsam bilemedim. Sadece belirli ihtimallerin gerçekleşeceği durumlarda kullanılıyor.
+//Başarı durumu, başarılı ya da başarısız. Bir diğer ihtimal yok.
 enum Gunler{
     case Pazartesi
     case Salı
@@ -80,16 +124,34 @@ default:
     print("Selam, günaydın")
 }
 
-//if case
+//diğer switch case örneği
+let Menu = "anaYemek"
+switch Menu{
+case "anaYemek":
+    print("Kurufasulye, pilav, yemek aklıma gelmedi......")
+case "Tatlı":
+    print("Kazandibi puding sütlaç")
+case "Salata":
+    print("Gevurdağı, Çoban")
+default:
+    print("Yemek yok pasta ye!")
+}
+
+//If else example
 let order = 299
 if order &lt;= 299 {
     print("Sayı \(order) dan küçük ya da eşit")
-}else{
+}
+else if order&lt;200 {
+    print("Testing")
+}
+
+else{
     print("Whateverrr!")
     
 }
 
-//example
+//Switch-case example
 let Final:Double = 45
 let Vize:Double = 35
 let sonuc = ((Final*0.6)+(Vize*0.4))
@@ -105,7 +167,7 @@ default:
 
 </string>
 			<key>ModifiedRange</key>
-			<string>{97, 1709}</string>
+			<string>{398, 2606}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>

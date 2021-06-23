@@ -59,9 +59,53 @@ enum planet: Int{
 }
 let jupiter = planet(rawValue: 2)
 jupiter
+
+    //operator overloading
+
+let ad = "dogancan "
+let tam = ad + "mavideniz"
+var score = 100
+score += 5
+
+    //switch case
+let havaDurumu = "yagmurlu"
+switch havaDurumu{
+case "gunesli":
+    print("Hava çok güzel!")
+case "yagmurlu":
+    print("Şemsiyeni al!")
+case "karli":
+    print("Kalın giyin!")
+default:
+    print("Selam, günaydın")
+}
+
+//if case
+let order = 299
+if order &lt;= 299 {
+    print("Sayı \(order) dan küçük ya da eşit")
+}else{
+    print("Whateverrr!")
+    
+}
+
+//example
+let Final:Double = 45
+let Vize:Double = 35
+let sonuc = ((Final*0.6)+(Vize*0.4))
+switch sonuc {
+case 40..&lt;50:
+    print("Sınavı geçtin, ortalaman \(sonuc)")
+case 30..&lt;40:
+    print("Büte kaldın! :(")
+default:
+    print("Sınavdan kaldın, ortalaman \(sonuc)") 
+}
+
+
 </string>
 			<key>ModifiedRange</key>
-			<string>{97, 965}</string>
+			<string>{97, 1709}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>

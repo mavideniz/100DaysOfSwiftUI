@@ -164,10 +164,74 @@ default:
     print("Sınavdan kaldın, ortalaman \(sonuc)") 
 }
 
+//Loops
+
+let count = 1...99
+print(count)
+
+for number in 1...10 {
+    print("Selam! \(number)")
+}
+
+print("Players gonna ")
+
+for _ in 1...5 {
+    print("play")
+}
+
+var new_number = 1
+
+while new_number &lt;= 10 {
+    print(new_number)
+    new_number += 1
+}
+
+print("Sayı 10'a eşitlendi.")
+
+    //Repeat Örneği
+repeat {
+    print("Bu satırı çalıştırır, ama döngü çalışmaz!!!!")
+} while false
+
+var countDown = 10
+while countDown &gt;= 0 {
+    print(countDown)
+    
+    if countDown == 4 {
+        print("I'm bored. Let's go now!")
+        break
+    }
+    
+    countDown -= 1
+}
+
+//Continue
+
+for i in 1...10 {
+    if i % 2 == 1 {
+        continue
+    }
+    
+    print(i)
+}
+
+//infinite loop
+var counter = 0
+
+while true {
+    print(" ")
+    counter += 1
+    
+    if counter &lt;= 23 {
+        break
+    }
+}
+
+
 
 </string>
 			<key>ModifiedRange</key>
-			<string>{398, 2606}</string>
+			<string>{398, 3395}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>

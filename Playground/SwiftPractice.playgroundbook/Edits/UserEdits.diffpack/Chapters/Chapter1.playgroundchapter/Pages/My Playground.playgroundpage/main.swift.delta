@@ -228,10 +228,46 @@ while true {
 }
 
 
+// Functions
 
+func Selamla() {
+    print("Hoşgeldin!")
+}
+
+Selamla()
+
+    //Kare alma örneği bir klasiktir...
+func karesiniAl(number: Int){
+    print("\(number) sayısının karesi ",number*number)
+}
+karesiniAl(number: 6)
+    //return de kullanabiliriz, bu hali daha worth bence
+func karesiniAl2(number: Int) -&gt; Int{ //ne döndüreceğini de -&gt; ile belirlemek lazımmış
+    return number*number
+}
+print(karesiniAl2(number: 6))
+    //
+func sayHello(to name: String) {
+    print("Hello, \(name)!")
+}
+sayHello(to: "Doğancan")
+
+    // apayrı bir örnek...
+func Sellamla(kimi name:String, durum:Bool = true){
+    if durum == true{
+        print("Hoşgeldin canım \(name)!")
+        
+    }else{
+        print("Niye geldin \(name)?!")
+    }
+}
+
+Sellamla(kimi: "Doğa", durum: false)
+Sellamla(kimi: "Doğan", durum: true)
+    
 </string>
 			<key>ModifiedRange</key>
-			<string>{398, 3395}</string>
+			<string>{398, 4200}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>

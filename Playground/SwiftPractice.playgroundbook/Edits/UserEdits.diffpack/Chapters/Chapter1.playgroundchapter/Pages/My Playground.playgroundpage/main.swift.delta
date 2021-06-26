@@ -264,10 +264,43 @@ func Sellamla(kimi name:String, durum:Bool = true){
 
 Sellamla(kimi: "Doğa", durum: false)
 Sellamla(kimi: "Doğan", durum: true)
-    
+
+    //Closures
+let newClosures = {
+    "Selam Dost!"
+}
+print(newClosures())
+
+    // other example
+let Drive = { (yolcu: String) in
+    print("Yolcu adı \(yolcu)")
+}
+
+Drive("Ahmet")
+
+    //Return for Closures
+let drivingWithReturn = { (place: String) -&gt; String in
+    return "I'm going to \(place) in my car"
+}
+
+//
+
+func travel(action: () -&gt; Void) {
+    print("I'm getting ready to go.")
+    action()
+    print("I arrived!")
+}
+
+travel() {
+    print("I'm driving in my car")
+}
+
+travel {
+    print("I'm driving in my car")
+} //Trailling Closure Syntax olduğu için ()'e bile gerek kalmadı, zaten tek bir parametre var.
 </string>
 			<key>ModifiedRange</key>
-			<string>{398, 4200}</string>
+			<string>{398, 4811}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>

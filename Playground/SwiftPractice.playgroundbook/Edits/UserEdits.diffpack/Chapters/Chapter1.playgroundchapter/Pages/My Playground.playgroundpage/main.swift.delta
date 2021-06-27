@@ -288,7 +288,7 @@ let drivingWithReturn = { (place: String) -&gt; String in
 func travel(action: () -&gt; Void) {
     print("I'm getting ready to go.")
     action()
-    print("I arrived!")
+    print("I arrived!!!!")
 }
 
 travel() {
@@ -298,9 +298,41 @@ travel() {
 travel {
     print("I'm driving in my car")
 } //Trailling Closure Syntax olduğu için ()'e bile gerek kalmadı, zaten tek bir parametre var.
+
+func travel(action: (String) -&gt; Void){
+    print("I'm getting ready to go")
+    action("Bursa")
+    print("I arrived")
+}
+
+travel { (place: String) in
+    print("I'm going to \(place) in my car")
+}
+
+func travel(action: (String) -&gt; String) {
+    print("I'm getting ready to go.")
+    let description = action("London")
+    print(description)
+    print("I arrived!")
+}
+travel { (place: String) -&gt; String in
+    return "I'm going to \(place) in my car"
+}
+
+
+    //multiple parameters closures
+func travel(action: (String, Int) -&gt; String) {
+    print("I'm getting ready to go.")
+    let description = action("London", 60)
+    print(description)
+    print("I arrived!")
+}
+travel {
+    "I'm going to \($0) at \($1) miles per hour."
+}
 </string>
 			<key>ModifiedRange</key>
-			<string>{398, 4811}</string>
+			<string>{398, 5541}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>

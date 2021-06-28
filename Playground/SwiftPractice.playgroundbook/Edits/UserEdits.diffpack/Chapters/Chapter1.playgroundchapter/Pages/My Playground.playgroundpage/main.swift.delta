@@ -330,9 +330,52 @@ func travel(action: (String, Int) -&gt; String) {
 travel {
     "I'm going to \($0) at \($1) miles per hour."
 }
+
+struct Sporlar {
+    var name: String
+}
+var tennis = Sporlar(name: "Tenis")
+print(tennis.name)
+tennis.name = "Masa Tenisi" //direkt bu şekilde değiştirebiliyoruz.
+print(tennis.name) 
+
+
+
+struct Progress {
+    var task: String
+    var amount: Int {
+        didSet {
+            print("\(task) is now \(amount)% complete")
+        }
+    }
+}
+
+
+var progress = Progress(task: "Loading data", amount: 0)
+progress.amount = 30
+progress.amount = 80
+progress.amount = 100
+
+struct City {
+    var population: Int
+    var namme: String
+    
+    mutating func collectTaxes()-&gt; Int {
+        namme = "Gizli"
+        return population*100000
+    }
+    
+}
+var london = City(population: 9_000_000, namme: "Doğancan")
+print(london.collectTaxes())
+print(london.namme)
+
+
+var surnames = ["Mavideniz", "Defne", "Uçak"]
+surnames.sorted() //pek çok method kullanılabilir.
 </string>
 			<key>ModifiedRange</key>
-			<string>{398, 5541}</string>
+			<string>{398, 6388}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>

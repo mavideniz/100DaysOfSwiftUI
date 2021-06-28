@@ -364,8 +364,16 @@ struct City {
         namme = "Gizli"
         return population*100000
     }
-    
 }
+
+struct People {
+    var name : String
+}
+
+var dogi = People(name : "Dogican")
+var mali = dogi
+dogi.name = "mali"
+print(mali.name)
 var london = City(population: 9_000_000, namme: "Doğancan")
 print(london.collectTaxes())
 print(london.namme)
@@ -375,7 +383,7 @@ var surnames = ["Mavideniz", "Defne", "Uçak"]
 surnames.sorted() //pek çok method kullanılabilir.
 </string>
 			<key>ModifiedRange</key>
-			<string>{398, 6388}</string>
+			<string>{398, 6513}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>

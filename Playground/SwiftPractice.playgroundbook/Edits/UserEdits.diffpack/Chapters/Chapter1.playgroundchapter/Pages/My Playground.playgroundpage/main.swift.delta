@@ -381,9 +381,76 @@ print(london.namme)
 
 var surnames = ["Mavideniz", "Defne", "Uçak"]
 surnames.sorted() //pek çok method kullanılabilir.
+
+    //Initializers
+struct User {
+    var username: String
+    init(){
+        username = "Anonymous"
+        print("Yeni bir kullanıcı yarat")
+    }
+}
+
+var user = User()
+print(user.username)
+user.username = "Deniz"
+print(user.username)
+
+    //self örneği
+
+struct Person {
+    var name: String
+    var year: Int
+    init(name: String, year: Int) {
+        print("\(name) was born! \(year)")
+        self.year = year
+        self.name = name
+    }
+}
+
+var testing = Person(name: "doğancan", year: 1999)
+
+// static yapısı
+
+struct Student {
+    static var classSize = 0
+    var name: String
+    
+    init(name: String) {
+        self.name = name
+        Student.classSize += 1
+    }
+}
+
+let ed = Student(name: "Ed")
+print(Student.classSize)
+
+
+let taylor = Student(name: "Taylor")
+print(Student.classSize)
+
+    // Acces
+
+struct Personn {
+    private var id: String
+    // var id: String olsa erişilecekti
+    
+    init(id: String) {
+        self.id = id
+    }
+    
+    func identify() -&gt; String {
+        return "My social security number is \(id)"
+    }
+}
+
+// var giray = (Personn(id: "1231231231")) 
+// private olduğu için erişemiyor
+
+
 </string>
 			<key>ModifiedRange</key>
-			<string>{398, 6513}</string>
+			<string>{398, 7645}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>

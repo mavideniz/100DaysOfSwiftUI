@@ -74,13 +74,33 @@ for _ in 1...3 {
     person.printGreeting()
 }
 
+// Day 11/100 Protocols
+
+protocol Payable {
+    func calculateWages() -&gt; Int
+}
+
+protocol NeedsTraining {
+    func study()
+}
+
+protocol HasVacation {
+    func takeVacation(days: Int)
+}
+
+// pek çok protokol oluşturup daha sonrasında tek bir protokol altında çağırabiliyoruz.
+
+// protokol kavramı daha tam oturmadı bu gece araştırmam gerek biraz daha..
+
+protocol Employee: Payable, NeedsTraining, HasVacation { }
 </string>
 			<key>ModifiedRange</key>
-			<string>{0, 1228}</string>
+			<string>{0, 1637}</string>
 			<key>OriginalContent</key>
-			<string></string>
+			<string>
+</string>
 			<key>OriginalRange</key>
-			<string>{0, 0}</string>
+			<string>{0, 1}</string>
 		</dict>
 	</array>
 	<key>File</key>

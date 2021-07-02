@@ -93,14 +93,48 @@ protocol HasVacation {
 // protokol kavramı daha tam oturmadı bu gece araştırmam gerek biraz daha..
 
 protocol Employee: Payable, NeedsTraining, HasVacation { }
+
+
+// null safety
+
+var age: Int? = nil
+
+var name: String? = nil
+
+//nil ile bir veriyi boş bırakıp daha sonra doldurabiliyoruz.
+
+if let unwrapped = name {
+    print("\(unwrapped.count) letters")
+} else {
+    print("Missing name.")
+}
+
+//unwrapped ise o değişkenin nil mi yoksa bir değere sahip olup olmadığını bizlere söylüyor.
+
+func greet(_ name: String?) {
+    guard let unwrapped = name else {
+        print("You didn't provide a name!")
+        return
+    }
+    
+    print("Hello, \(unwrapped)!")
+}
+
+greet("Dogancan")
+
+    //Force unwrapping
+
+let str = "5"
+let num = Int(str)!
+//sonuna ünlem koyarsak kesinlikle bunu int değerine çevir diyoruz, yani değerimiz 5 yerine 5t olsaydı program hata verirdi.
+
 </string>
 			<key>ModifiedRange</key>
-			<string>{0, 1637}</string>
+			<string>{0, 2341}</string>
 			<key>OriginalContent</key>
-			<string>
-</string>
+			<string></string>
 			<key>OriginalRange</key>
-			<string>{0, 1}</string>
+			<string>{0, 0}</string>
 		</dict>
 	</array>
 	<key>File</key>

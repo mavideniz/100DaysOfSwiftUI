@@ -128,9 +128,46 @@ let str = "5"
 let num = Int(str)!
 //sonuna ünlem koyarsak kesinlikle bunu int değerine çevir diyoruz, yani değerimiz 5 yerine 5t olsaydı program hata verirdi.
 
+
+// Day 13
+
+//Bir değişken tanımlarken 
+
+var adsoyad = "Dogancan Mavideniz"
+
+//şeklinde değil de 
+
+var adsoyad2: String
+
+adsoyad2 = "Ümit Ayçiçek"
+
+    // olarak tanımlarsak daha iyi olur.
+
+    // Aynı zamanda bir değişkeni print ederken
+
+var names = "Tim McGraw"
+"Your name is " + names
+
+    //yerine
+
+var name2 = "Tim McGraw"
+var ag2e = 25
+var latitude = 36.166667
+
+"Your name is \(name2), your age is \(ag2e), and your latitude is \(latitude)"
+
+    //şeklinde ifade etmek daha doğru ( e tabiki!)
+
+    // Eğer bir array içinde birden fazla veri tipi bulundurmak istiyorsak Any keywords kullanmalıymışız...
+
+var songs: [Any] = ["Shake it Off", "You Belong with Me", "Back to December", 3]
+//loop örneği
+for i in 1...10 {
+    print("\(i) x 10 is \(i * 10)")
+}
 </string>
 			<key>ModifiedRange</key>
-			<string>{0, 2341}</string>
+			<string>{0, 3101}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>

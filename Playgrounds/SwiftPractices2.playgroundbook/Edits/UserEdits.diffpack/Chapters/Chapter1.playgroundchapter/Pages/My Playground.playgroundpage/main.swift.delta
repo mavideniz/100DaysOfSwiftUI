@@ -165,9 +165,72 @@ var songs: [Any] = ["Shake it Off", "You Belong with Me", "Back to December", 3]
 for i in 1...10 {
     print("\(i) x 10 is \(i * 10)")
 }
+
+// More practise
+
+func favAlbum(){
+    print("Tarkan's")
+}
+
+favAlbum()
+
+    //more complex version lol :D
+
+func favAlbum2(name: String, albumNumber: Int){
+    print("Your fav album is \(name) and Album Number is \(albumNumber)")
+}
+favAlbum2(name: "Lights Out", albumNumber: 06)
+
+
+func harfSayaci(kelime: String){
+    print("\"\(kelime)\" kelimesi \(kelime.count) harften oluşuyor.")
+}
+harfSayaci(kelime: "asdfasdfasdfasdfasdfasdfa")
+
+func getHaterStatus(weather: String) -&gt; String? {
+    if weather == "sunny" {
+        return nil
+    } else {
+        return "Hate"
+    }
+}
+
+var status: String?
+status = getHaterStatus(weather: "rainy")
+
+print(status)
+
+func yearAlbumRelased(name: String) -&gt; Int? {
+    if name == "Taylor Swift" { return 2006} 
+    if name == "Deneme" { return 2016} 
+    if name == "Ahmet" { return 2003} 
+    if name == "Mehmet" { return 2001} 
+    if name == "Deniz" { return 2000} 
+
+    return nil
+}
+
+print(yearAlbumRelased(name: "Diğer"))
+
+    // enum ex
+
+    //eğer belirli ihtimallerden bahsediyorsak enum kullanıyoruz, thats it!
+enum WeatherType {
+    case sun, cloud, rain, wind, snow
+}
+
+func getHaterStatus(weather: WeatherType) -&gt; String? {
+    if weather == WeatherType.sun {
+        return "Nice day"
+    } else {
+        return "Hate"
+    }
+}
+
+print(getHaterStatus(weather: WeatherType.sun))
 </string>
 			<key>ModifiedRange</key>
-			<string>{0, 3101}</string>
+			<string>{0, 4425}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>

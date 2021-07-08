@@ -1,7 +1,15 @@
+
 ### Welcome to 100 Days Of SwiftUI Challenge! 🚀
-#### Current Challenge 14/100 - 04.07.2021
+#### Current Challenge 18/100 - 08.07.2021
 
 The **Playground** and **Playground2** folders contains swift practices learned in the first 15 days of the training.
+
+|Order|App Name  |
+|--|--|
+|0 |Playground & Playground2 |
+|1  |WeSplit  |
+
+
 
 The projects I will do in the coming days will be created in a new file with the project names.
 

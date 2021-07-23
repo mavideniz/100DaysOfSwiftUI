@@ -7,23 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6655944326A178090027C2B5 /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6655944226A178090027C2B5 /* BetterRestApp.swift */; };
-		6655944526A178090027C2B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6655944426A178090027C2B5 /* ContentView.swift */; };
-		6655944726A1780A0027C2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6655944626A1780A0027C2B5 /* Assets.xcassets */; };
-		6655944A26A1780A0027C2B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6655944926A1780A0027C2B5 /* Preview Assets.xcassets */; };
+		667C6B2726AAB5D90054FEF2 /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C6B2626AAB5D90054FEF2 /* BetterRestApp.swift */; };
+		667C6B2926AAB5D90054FEF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C6B2826AAB5D90054FEF2 /* ContentView.swift */; };
+		667C6B2B26AAB5DB0054FEF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667C6B2A26AAB5DB0054FEF2 /* Assets.xcassets */; };
+		667C6B2E26AAB5DB0054FEF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667C6B2D26AAB5DB0054FEF2 /* Preview Assets.xcassets */; };
+		667C6B3626AABF7E0054FEF2 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 667C6B3526AABF7E0054FEF2 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6655943F26A178090027C2B5 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6655944226A178090027C2B5 /* BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestApp.swift; sourceTree = "<group>"; };
-		6655944426A178090027C2B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6655944626A1780A0027C2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6655944926A1780A0027C2B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6655944B26A1780A0027C2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667C6B2326AAB5D90054FEF2 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		667C6B2626AAB5D90054FEF2 /* BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestApp.swift; sourceTree = "<group>"; };
+		667C6B2826AAB5D90054FEF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		667C6B2A26AAB5DB0054FEF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		667C6B2D26AAB5DB0054FEF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		667C6B2F26AAB5DB0054FEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667C6B3526AABF7E0054FEF2 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = "../../../../Desktop/Personal/HackingWithSwift-main/SwiftUI/project4-files/SleepCalculator.mlmodel"; sourceTree = "<group>"; };
+		667C6B3726AABF8F0054FEF2 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6655943C26A178090027C2B5 /* Frameworks */ = {
+		667C6B2026AAB5D90054FEF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +36,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6655943626A178090027C2B5 = {
+		667C6B1A26AAB5D90054FEF2 = {
 			isa = PBXGroup;
 			children = (
-				6655944126A178090027C2B5 /* BetterRest */,
-				6655944026A178090027C2B5 /* Products */,
+				667C6B3526AABF7E0054FEF2 /* SleepCalculator.mlmodel */,
+				667C6B2526AAB5D90054FEF2 /* BetterRest */,
+				667C6B2426AAB5D90054FEF2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6655944026A178090027C2B5 /* Products */ = {
+		667C6B2426AAB5D90054FEF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6655943F26A178090027C2B5 /* BetterRest.app */,
+				667C6B2326AAB5D90054FEF2 /* BetterRest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6655944126A178090027C2B5 /* BetterRest */ = {
+		667C6B2526AAB5D90054FEF2 /* BetterRest */ = {
 			isa = PBXGroup;
 			children = (
-				6655944226A178090027C2B5 /* BetterRestApp.swift */,
-				6655944426A178090027C2B5 /* ContentView.swift */,
-				6655944626A1780A0027C2B5 /* Assets.xcassets */,
-				6655944B26A1780A0027C2B5 /* Info.plist */,
-				6655944826A1780A0027C2B5 /* Preview Content */,
+				667C6B2626AAB5D90054FEF2 /* BetterRestApp.swift */,
+				667C6B2826AAB5D90054FEF2 /* ContentView.swift */,
+				667C6B2A26AAB5DB0054FEF2 /* Assets.xcassets */,
+				667C6B2F26AAB5DB0054FEF2 /* Info.plist */,
+				667C6B3726AABF8F0054FEF2 /* SleepCalculator.mlmodel */,
+				667C6B2C26AAB5DB0054FEF2 /* Preview Content */,
 			);
 			path = BetterRest;
 			sourceTree = "<group>";
 		};
-		6655944826A1780A0027C2B5 /* Preview Content */ = {
+		667C6B2C26AAB5DB0054FEF2 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				6655944926A1780A0027C2B5 /* Preview Assets.xcassets */,
+				667C6B2D26AAB5DB0054FEF2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,13 +77,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6655943E26A178090027C2B5 /* BetterRest */ = {
+		667C6B2226AAB5D90054FEF2 /* BetterRest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6655944E26A1780A0027C2B5 /* Build configuration list for PBXNativeTarget "BetterRest" */;
+			buildConfigurationList = 667C6B3226AAB5DB0054FEF2 /* Build configuration list for PBXNativeTarget "BetterRest" */;
 			buildPhases = (
-				6655943B26A178090027C2B5 /* Sources */,
-				6655943C26A178090027C2B5 /* Frameworks */,
-				6655943D26A178090027C2B5 /* Resources */,
+				667C6B1F26AAB5D90054FEF2 /* Sources */,
+				667C6B2026AAB5D90054FEF2 /* Frameworks */,
+				667C6B2126AAB5D90054FEF2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,24 +91,24 @@
 			);
 			name = BetterRest;
 			productName = BetterRest;
-			productReference = 6655943F26A178090027C2B5 /* BetterRest.app */;
+			productReference = 667C6B2326AAB5D90054FEF2 /* BetterRest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6655943726A178090027C2B5 /* Project object */ = {
+		667C6B1B26AAB5D90054FEF2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					6655943E26A178090027C2B5 = {
+					667C6B2226AAB5D90054FEF2 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 6655943A26A178090027C2B5 /* Build configuration list for PBXProject "BetterRest" */;
+			buildConfigurationList = 667C6B1E26AAB5D90054FEF2 /* Build configuration list for PBXProject "BetterRest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +116,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 6655943626A178090027C2B5;
-			productRefGroup = 6655944026A178090027C2B5 /* Products */;
+			mainGroup = 667C6B1A26AAB5D90054FEF2;
+			productRefGroup = 667C6B2426AAB5D90054FEF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6655943E26A178090027C2B5 /* BetterRest */,
+				667C6B2226AAB5D90054FEF2 /* BetterRest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6655943D26A178090027C2B5 /* Resources */ = {
+		667C6B2126AAB5D90054FEF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6655944A26A1780A0027C2B5 /* Preview Assets.xcassets in Resources */,
-				6655944726A1780A0027C2B5 /* Assets.xcassets in Resources */,
+				667C6B2E26AAB5DB0054FEF2 /* Preview Assets.xcassets in Resources */,
+				667C6B2B26AAB5DB0054FEF2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6655943B26A178090027C2B5 /* Sources */ = {
+		667C6B1F26AAB5D90054FEF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6655944526A178090027C2B5 /* ContentView.swift in Sources */,
-				6655944326A178090027C2B5 /* BetterRestApp.swift in Sources */,
+				667C6B2926AAB5D90054FEF2 /* ContentView.swift in Sources */,
+				667C6B3626AABF7E0054FEF2 /* SleepCalculator.mlmodel in Sources */,
+				667C6B2726AAB5D90054FEF2 /* BetterRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6655944C26A1780A0027C2B5 /* Debug */ = {
+		667C6B3026AAB5DB0054FEF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		6655944D26A1780A0027C2B5 /* Release */ = {
+		667C6B3126AAB5DB0054FEF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +268,7 @@
 			};
 			name = Release;
 		};
-		6655944F26A1780A0027C2B5 /* Debug */ = {
+		667C6B3326AAB5DB0054FEF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -284,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		6655945026A1780A0027C2B5 /* Release */ = {
+		667C6B3426AAB5DB0054FEF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -309,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6655943A26A178090027C2B5 /* Build configuration list for PBXProject "BetterRest" */ = {
+		667C6B1E26AAB5D90054FEF2 /* Build configuration list for PBXProject "BetterRest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6655944C26A1780A0027C2B5 /* Debug */,
-				6655944D26A1780A0027C2B5 /* Release */,
+				667C6B3026AAB5DB0054FEF2 /* Debug */,
+				667C6B3126AAB5DB0054FEF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6655944E26A1780A0027C2B5 /* Build configuration list for PBXNativeTarget "BetterRest" */ = {
+		667C6B3226AAB5DB0054FEF2 /* Build configuration list for PBXNativeTarget "BetterRest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6655944F26A1780A0027C2B5 /* Debug */,
-				6655945026A1780A0027C2B5 /* Release */,
+				667C6B3326AAB5DB0054FEF2 /* Debug */,
+				667C6B3426AAB5DB0054FEF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6655943726A178090027C2B5 /* Project object */;
+	rootObject = 667C6B1B26AAB5D90054FEF2 /* Project object */;
 }

@@ -8,7 +8,7 @@ The **Playground** and **Playground2** folders contains swift practices learned 
 |--|--|
 |0 |[Playground & Playground2](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/Playgrounds) |
 |1  |[WeSplit](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/WeSplit)  |
-|2  |[Unit Conversion App (First Challenge)](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/FirstChallenge)  |
+|2  |[Unit Conversion App (First Challenge)](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/UnitConversion)  |
 |3  |[Guess The Flag](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/GuessTheFlag)  |
 |4  |[RockPaperScissors](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/RockPaperScissorsGame)  |
 |5  |[BetterRest](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/BetterRest)  |

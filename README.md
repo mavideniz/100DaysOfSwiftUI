@@ -1,6 +1,6 @@
 
 ### Welcome to 100 Days Of SwiftUI Challenge! 🚀
-#### Current Challenge 32/100 - 14.08.2021
+#### Current Challenge 33/100 - 15.08.2021
 
 The **Playground** and **Playground2** folders contains swift practices learned in the first 15 days of the training.
 
@@ -13,6 +13,7 @@ The **Playground** and **Playground2** folders contains swift practices learned 
 |4  |[RockPaperScissors](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/RockPaperScissorsGame)  |
 |5  |[BetterRest](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/BetterRest)  |
 |6  |[WordScramble](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/WordScramble)  |
+|6  |[Animations](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/Animations)  |
 
 
 

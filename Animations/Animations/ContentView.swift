@@ -8,25 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    let letters = Array("Hello SwiftUI")
     @State private var enabled = false
-    
-    
-    var body: some View {
-        Button("Tap Me") {
-            // do nothing
-            self.enabled.toggle()
-        }
-        .frame(width: 200, height: 200)
-        .background(enabled ? Color.red : Color.blue)
-        .foregroundColor(.white)
-        .animation(nil)
-        .clipShape(RoundedRectangle(cornerRadius: enabled ? 60 : 0))
-        .animation(.interpolatingSpring(stiffness: 10, damping: 1))
+    @State private var dragAmount = CGSize.zero
 
+    var body: some View {
+        HStack(spacing: 0) {
+            ForEach(0..<letters.count) { num in
+                Text(String(self.letters[num]))
+                    .padding(5)
+                    .font(.title)
+                    .background(self.enabled ? Color.blue : Color.red)
+                    .offset(self.dragAmount)
+                    .animation(Animation.default.delay(Double(num) / 20))
+            }
+        }
+        .gesture(
+            DragGesture()
+                .onChanged { self.dragAmount = $0.translation }
+                .onEnded { _ in
+                    self.dragAmount = .zero
+                    self.enabled.toggle()
+                }
+        )
     }
-    
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

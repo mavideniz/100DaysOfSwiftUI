@@ -13,7 +13,7 @@ The **Playground** and **Playground2** folders contains swift practices learned 
 |4  |[RockPaperScissors](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/RockPaperScissorsGame)  |
 |5  |[BetterRest](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/BetterRest)  |
 |6  |[WordScramble](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/WordScramble)  |
-|6  |[Animations](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/Animations)  |
+|7  |[Animations](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/Animations)  |
 
 
 

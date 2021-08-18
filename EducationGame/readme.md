@@ -1,4 +1,4 @@
-## Multiplication Practise App
+## 🧮 Multiplication Practise App
 
 **Purpose of the App:**
 

@@ -7,29 +7,36 @@
 
 import SwiftUI
 
-struct ContentView: View {
+
+
+struct SecondView: View {
     
-    class User: ObservableObject {
+    @Environment(\.presentationMode) var presentationMode
+    var name: String
+    
+    var body: some View{
+        Text("Your name is \(name)")
         
-        
-        
-        @Published var name = "Dogancan"
-        @Published var surname = "Mavideniz"
-        
-    }
-    @ObservedObject private var user = User()
-    var body: some View {
-        VStack{
-            
-            Text("Your name is \(user.name), surname is \(user.surname)")
-            Text("Git Test 123")
-            TextField("Your first name",text:$user.name)
-                .padding()
-            TextField("Your second name",text:$user.surname)
-                .padding()
+        Button("Dismiss"){
+            self.presentationMode.wrappedValue.dismiss()
         }
     }
 }
+
+struct ContentView: View {
+    @State private var showingSheet = false
+    var body: some View {
+        
+            
+        Button("Go second!"){
+            self.showingSheet.toggle()
+        }
+        .sheet(isPresented: $showingSheet){
+            SecondView(name: "dogancan")
+            
+            }
+        }
+    }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

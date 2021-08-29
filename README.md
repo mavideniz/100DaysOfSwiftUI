@@ -15,6 +15,7 @@ The **Playground** and **Playground2** folders contains swift practices learned 
 |6  |[WordScramble](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/WordScramble)  |
 |7  |[Animations](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/Animations)  |
 |8  |[EducationGame](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/EducationGame)  |
+|9  |[iExpense](https://github.com/mavideniz/100DaysOfSwiftUI/tree/main/iExpense)  |
 
 
 

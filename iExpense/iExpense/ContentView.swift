@@ -9,34 +9,42 @@ import SwiftUI
 
 
 
-struct SecondView: View {
+struct ContentView: View {
+    @State private var numbers = [Int]()
+    @State private var currentNumber = 1
     
-    @Environment(\.presentationMode) var presentationMode
-    var name: String
-    
-    var body: some View{
-        Text("Your name is \(name)")
+    var body: some View {
+        NavigationView{
+        VStack {
+            List {
+                ForEach(numbers, id: \.self){
+                    Text("\($0)")
+                }
+                .onDelete(perform: removeRows)
+            }
+           
         
-        Button("Dismiss"){
-            self.presentationMode.wrappedValue.dismiss()
+            
+            Button("add number"){
+                self.numbers.append(self.currentNumber)
+                self.currentNumber += 1
+                    
+            }
+            .padding()
+            
+        
         }
+        .navigationBarItems(leading: EditButton())
+        }
+      
+    
+    }
+    
+    
+    func removeRows(at offsets: IndexSet){
+        numbers.remove(atOffsets: offsets)
     }
 }
-
-struct ContentView: View {
-    @State private var showingSheet = false
-    var body: some View {
-        
-            
-        Button("Go second!"){
-            self.showingSheet.toggle()
-        }
-        .sheet(isPresented: $showingSheet){
-            SecondView(name: "dogancan")
-            
-            }
-        }
-    }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

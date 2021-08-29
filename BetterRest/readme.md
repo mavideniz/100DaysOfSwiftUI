@@ -1,4 +1,4 @@
-## Better Rest App
+## 💤 Better Rest App
 
 **Purpose of the App:**
 

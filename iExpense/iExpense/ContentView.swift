@@ -22,7 +22,7 @@ struct ContentView: View {
         VStack{
             
             Text("Your name is \(user.name), surname is \(user.surname)")
-            
+            Text("Git Test 123")
             TextField("Your first name",text:$user.name)
                 .padding()
             TextField("Your second name",text:$user.surname)

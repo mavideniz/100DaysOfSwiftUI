@@ -41,6 +41,8 @@ class Expenses: ObservableObject {
     
 }
 
+
+
 struct ContentView: View {
     
     @State private var showingAddExpense = false
@@ -59,27 +61,36 @@ struct ContentView: View {
                             
                         }
                         Spacer()
-                        Text("\(item.amount)")
+                        Text("$\(item.amount)")
+                            .foregroundColor(item.amount <= 100 ? .green : item.amount > 100 && item.amount < 1000 ? .orange : .red)
                     }
                     
                 }
                 .onDelete(perform: removeItems)
+                
             }
-            
             .navigationBarTitle("iExpense")
-            .navigationBarItems(trailing:
+            .toolbar{
+                EditButton()
+            }
+            .navigationBarItems(leading:
             Button(action: {
                 self.showingAddExpense = true
             }) {
                 Image(systemName: "plus")
             })
+            
+            
             .sheet(isPresented: $showingAddExpense){
                 AddView(expenses: self.expenses)
             }
+            
+            
             }
         
         
     }
+    
     func removeItems(at offsets: IndexSet){
         expenses.items.remove(atOffsets: offsets)
     }

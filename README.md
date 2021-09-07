@@ -26,7 +26,7 @@ The projects I will do in the coming days will be created in a new file with the
 ---
 I created this repo to follow my own 100 day challenge and share it with other people.
 
-I also share each day of the challenge on my [instagram account](https://www.instagram.com/dogancanmavideniz/)(temporarily frozen), you can follow it! If you want to join this challenge and be a study buddy, you can send a message. 🙋🏼‍♂️
+I also share each day of the challenge on my [Twitter account](https://twitter.com/dogancna), you can follow it! If you want to join this challenge and be a study buddy, you can send a message. 🙋🏼‍♂️
 
 You can join this challenge at [Hacking with Swift](https://www.hackingwithswift.com/100/swiftui).
 

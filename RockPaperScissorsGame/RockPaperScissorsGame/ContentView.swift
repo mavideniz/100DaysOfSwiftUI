@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    private var moves: [String] = ["🪨", "📆", "✂️"]
+    private var moves: [String] = ["🪨", "📃", "✂️"]
     
     @State var score: Int = 0
     @State var currentMove: Int = Int.random(in: 0...2)

@@ -47,6 +47,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		665C442C26FC94B80072F4A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				661EDCE426F4CFAC00F947D8 /* Astronaut.swift */,
+				661EDCE826F4D18F00F947D8 /* Mission.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		665C442D26FC94EB0072F4A2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				66D04EC226FA2D1200DE9F00 /* missions.json */,
+				66D04EC126FA2D1200DE9F00 /* astronauts.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		665C442E26FC94F40072F4A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				662B2FD626F9FD520017BC04 /* AstronautView.swift */,
+				66DD691F26F33E7F00FF3090 /* ContentView.swift */,
+				662B2FD426F9F8B80017BC04 /* MissionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		66DD691126F33E7F00FF3090 = {
 			isa = PBXGroup;
 			children = (
@@ -66,14 +94,10 @@
 		66DD691C26F33E7F00FF3090 /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
-				66D04EC126FA2D1200DE9F00 /* astronauts.json */,
-				66D04EC226FA2D1200DE9F00 /* missions.json */,
+				665C442E26FC94F40072F4A2 /* View */,
+				665C442D26FC94EB0072F4A2 /* Data */,
+				665C442C26FC94B80072F4A2 /* Model */,
 				66DD691D26F33E7F00FF3090 /* MoonshotApp.swift */,
-				66DD691F26F33E7F00FF3090 /* ContentView.swift */,
-				662B2FD426F9F8B80017BC04 /* MissionView.swift */,
-				661EDCE826F4D18F00F947D8 /* Mission.swift */,
-				661EDCE426F4CFAC00F947D8 /* Astronaut.swift */,
-				662B2FD626F9FD520017BC04 /* AstronautView.swift */,
 				661EDCE626F4D03300F947D8 /* Bundle-Decodable.swift */,
 				66DD692126F33E8000FF3090 /* Assets.xcassets */,
 				66DD692626F33E8000FF3090 /* Info.plist */,

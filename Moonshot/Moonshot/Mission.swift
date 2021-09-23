@@ -28,6 +28,14 @@ struct Mission: Codable, Identifiable {
         "apollo\(id)"
     }
     
+    var CrewNames: String{
+        var names = String()
+        for i in crew {
+            names += i.name + " "
+        }
+        return names.capitalized
+    }
+    
     struct CrewRole: Codable {
         let name: String
         let role: String

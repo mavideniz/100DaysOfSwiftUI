@@ -38,11 +38,13 @@ struct AstronautView: View {
                     Text(self.astronaut.description)
                         .padding()
                         .layoutPriority(1)
-                    
+                    Text("All Missions")
+                        .padding()
+                        .font(.headline)
                     ForEach(self.missionsFlown, id: \.self) { mission in
                         VStack {
                             Text(mission.description)
-                                .font(.headline)
+                                .font(.subheadline)
                         }
                     }
                     

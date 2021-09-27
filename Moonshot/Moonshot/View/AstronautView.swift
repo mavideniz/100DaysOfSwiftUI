@@ -34,7 +34,7 @@ struct AstronautView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: geometry.size.width)
-
+            
                     Text(self.astronaut.description)
                         .padding()
                         .layoutPriority(1)
